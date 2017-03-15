@@ -1,0 +1,396 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0026)http://www.waecdirect.org/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./WAECDIRECT ONLINE - RESULT CHECKER_files/AdserveJScript.js"></script>
+<script type="text/javascript" src="./WAECDIRECT ONLINE - RESULT CHECKER_files/jquery.min.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function () {        
+        GetAdvert('advert', 300, 250, 2);
+        GetAdvert('advert2', 300, 250, 2);
+        GetAdvert('advert3', 300, 250, 2);
+        GetAdvert('advert4', 350, 430, 2);
+        GetAdvert('advert5', 300, 250, 2);
+        GetAdvert('advert6', 300, 250, 2);
+        GetAdvert('advert7', 300, 250, 2);
+    });
+   
+</script>
+<script language="javascript" type="text/javascript">
+function test()
+{
+        var ExamNumber = document.getElementById("txtExamNumber");
+        var ExamYear = document.getElementById("drpExamYear");
+        var ExamType = document.getElementById("drpExamType");
+        var serial = document.getElementById("txtCardSerialNo");
+        var pin = document.getElementById("txtPIN");
+        if(trim(ExamNumber.value) == '')
+            {
+                alert('Examination Number cannot be blank');
+                return;
+            }
+            
+        if(trim(serial.value) == '')
+            {
+                alert('Serial Number cannot be blank');
+                return;
+            }
+          if(trim(pin.value) == '')
+            {
+                alert('PIN cannot be blank');
+                return;
+            }  
+        
+        var qrystr = '?ExamNumber=' + trim(ExamNumber.value) + '&ExamYear=' + ExamYear.value  + '&serial='  + trim(serial.value)  + '&pin='  + trim(pin.value)  + '&ExamType=' + ExamType.value;
+        //alert(qrystr);
+        window.open('DisplayResult.aspx' + qrystr, "", 'scrollbars,width=500,height=680');
+}
+
+function trim(str, chars) {
+
+    return ltrim(rtrim(str, chars), chars);
+
+}
+
+ 
+
+function ltrim(str, chars) {
+
+    chars = chars || "\\s";
+
+    return str.replace(new RegExp("^[" + chars + "]+", "g"), "");
+
+}
+
+ 
+
+function rtrim(str, chars) {
+
+    chars = chars || "\\s";
+
+    return str.replace(new RegExp("[" + chars + "]+$", "g"), "");
+
+}
+
+
+</script>
+
+<link rel="stylesheet" href="./WAECDIRECT ONLINE - RESULT CHECKER_files/dhtmlwindow.css" type="text/css">
+<script type="text/javascript" src="./WAECDIRECT ONLINE - RESULT CHECKER_files/dhtmlwindow.js"></script>
+
+<script type="text/javascript" src="./WAECDIRECT ONLINE - RESULT CHECKER_files/jquery-1.4.2.min.js"></script>
+
+    
+<title>
+	WAECDIRECT ONLINE - RESULT CHECKER
+</title><link rel="STYLESHEET" type="text/css" href="./WAECDIRECT ONLINE - RESULT CHECKER_files/waecdirect.css">
+    <style type="text/css">
+<!--
+.style3 {color: #FFFFFF}
+.style4 {color: #FF0000}
+.style5 {
+	font-size: 14px;
+	color: #0000FF;
+}
+.style6 {color: #0000FF}
+.style8 {font-size: 10px}
+.style9 {font-size: 12px; color: #000000; }
+.style11 {font-size: 15px}
+.style12 {
+	font-size: 13px;
+	font-weight: bold;
+}
+.style14 {color: #FF0000; font-size: 14px; }
+.style16 {
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.style18 {font-size: 10px; color: #FFFFFF; }
+-->
+    </style>
+
+<!-- This code snippet checks traffic on the page -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="./WAECDIRECT ONLINE - RESULT CHECKER_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15157798-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+</head>
+<body style="zoom: 1;">
+<table width="100%" border="0">
+  <tbody><tr>
+    <td colspan="2">
+        
+        <table width="100%" height="100%" border="0" cellspacing="1" cellpadding="0" align="left">
+      <tbody><tr>
+        <td width="100%" colspan="2"><img src="./WAECDIRECT ONLINE - RESULT CHECKER_files/top.jpg" alt="WAEC logo" width="760" height="104" hspace="0" vspace="0" border="0" align="left"> </td>
+      </tr>
+      <tr>
+        <td width="100%" colspan="2" class="darkblue"><a href="http://www.waecnigeria.org/">Click here to visit our corporate website</a>&nbsp;|&nbsp; <a href="http://www.waecdirect.org/faq.htm">FAQ</a>&nbsp;|&nbsp; <a href="http://www.waecdirect.org/#">Scratchcard Outlets</a>&nbsp;|&nbsp; <a href="http://www.waecdirect.org/channels.htm">Alternative Channels</a>&nbsp;| </td>
+      </tr>
+      <tr>
+        <td width="0%" class="nightblue"> Home</td>
+        <td width="100%" bgcolor="#191970" class="style3"><font size="2"><strong>FOR A LIST OF SCRATCH CARDS MEGA DEALERS'S OUTLETS, <a href="http://www.waecdirect.org/megadealers.htm" class="style4">CLICK HERE</a>.</strong></font><br>
+            </td>
+      </tr>
+            
+      <tr>
+        <td valign="top" class="yellow">
+            
+            <div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTUwMzU0MDM4OGRk/HW+BOS0SKrHTWqYeDsYx9Qkkvcrv38pXnulbaT4k2Q=">
+</div><table width="260" height="100%" border="0" cellspacing="0" cellpadding="0" align="left">
+            <tbody><tr>
+              <form method="post" action="" id="form1"></form>
+
+
+                <td class="yellow" style="padding-top: 30px; padding-right: 20px; height: 372px;"><p> Examination Number
+                  <input id="txtExamNumber" maxlength="10" size="10" type="text">
+                  
+                  </p>
+                    <p> Examination Year&nbsp;
+                        <select id="drpExamYear" name="ExamYear">
+                          <option selected="selected" value="2015">2015</option>
+                          <option value="2014">2014</option>
+			 <option value="2013">2013</option>
+			  <option value="2012">2012</option>
+			  <option value="2011">2011</option>
+			  <option value="2010">2010</option>
+			  <option value="2009">2009</option>
+                          <option value="2008">2008</option>
+                          <option value="2007">2007</option>
+                          <option value="2006">2006</option>
+                          <option value="2005">2005</option>
+                          <option value="2004">2004</option>
+                          <option value="2003">2003</option>
+                          <option value="2002">2002</option>
+                          <option value="2001">2001</option>
+                          <option value="2000">2000</option>
+                          <option value="1999">1999</option>
+                          <option value="1998">1998</option>
+                          <option value="1997">1997</option>
+                          <option value="1996">1996</option>
+                          <option value="1995">1995</option>
+                          <option value="1994">1994</option>
+                          <option value="1993">1993</option>
+                          <option value="1992">1992</option>
+                          <option value="1991">1991</option>
+                        </select>
+                      
+                    </p>
+                  <p> Type of Examination&nbsp;
+                      <select id="drpExamType" name="ExamType">
+<option selected="selected" value="MAY/JUNE WASSCE">MAY/JUNE WASSCE</option>
+<option value="NOV/DEC">NOV/DEC WASSCE (Private)</option>
+
+                          
+			  
+                        </select>
+                    
+                    </p>
+                  <p> Card Serial Number
+                    <input id="txtCardSerialNo" maxlength="12" size="12" type="text">
+                    
+                    </p>
+                  <p> PIN
+                    <input id="txtPIN" maxlength="16" size="16" type="password">
+                    
+                    </p>
+                  <p>
+                      
+                      
+                    &nbsp;
+                    <input id="Button1" onclick="test();" type="button" value="Submit" class="button">
+                    <br>
+                    Have you had any problem checking your result earlier? Send an email to:<br>
+                    <a href="http://www.fleettechltd.com/contact-us" class="style17"><u>Online Support</u></a> <br>Tel: 01-9049320<br>
+                  </p></td>
+              
+               
+            </tr>
+            
+            <tr>
+                <td class="yellow">                      
+                     <ol>
+<li>Enter your 10-digit WAEC Examination Number. <br>
+                    (This is your 7-Digit centre number followed by your 3-digit candidate number <span class="smalltxt" align="right">eg. 4123456789</span>) </li>
+                <li>Enter the 4 digits of your Examination Year <span class="smalltxt">eg. 2002</span> </li>
+                <li>Select the Type of Examination </li>
+                <li>Enter the Card Serial Number found on the reverse side of your Scratch card. </li>
+                <li>Enter the Personal Identification Number (PIN) on your Scratch card <span class="smalltxt"> </span> </li>
+                <li> Click Submit and wait for the results window to come up </li>
+              </ol>
+</td>
+               
+            </tr>
+            
+            <tr>
+               
+
+                <td class="yellow" style="padding-top: 30px; padding-right: 20px;">
+			<div id="advert4"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="350" height="430" src="./WAECDIRECT ONLINE - RESULT CHECKER_files/adservice(1).html"></iframe></div>           
+			
+                    </td>
+            </tr>
+            
+        </tbody></table>
+
+
+
+        </td>
+        <td width="100%" class="purple">
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0" align="left">
+        <tbody><tr>
+       <td height="10" colspan="3" bgcolor="#E9D772" class="style11"><span class="style12">&nbsp;&nbsp;<span class="style14">NOTICE: NOV/DEC WASSCE 2015 RESULTS NOW AVAILABLE. THANK YOU</span></span>
+       </td>
+            </tr>
+            <tr>
+            <td align="center" bgcolor="#312576" height="10"> ADVERTISEMENT</td>
+              <td align="center" bgcolor="#312576" height="10">ADVERTISEMENT</td>
+               <td align="center" bgcolor="#312576" height="10">ADVERTISEMENT</td>
+            </tr>
+           
+
+
+     <tr>
+             <td valign="top" class="purple" style="background-color:#8B7ED6" width="300" height="250">
+              
+             
+            
+            
+                  <div id="advert"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="300" height="250" src="./WAECDIRECT ONLINE - RESULT CHECKER_files/adservice.html"></iframe></div>           
+			
+			
+                   
+              
+              
+              
+              </td>
+              
+            <td valign="top" class="purple" style="background-color:#8B7ED6" width="300" height="250">
+              
+            
+            
+            
+                  <div id="advert6"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="300" height="250" src="./WAECDIRECT ONLINE - RESULT CHECKER_files/adservice.html"></iframe></div>           
+			
+			
+                   
+              
+              
+              
+              </td>
+           <td valign="top" class="purple" style="background-color:#8B7ED6" width="300" height="250">
+              
+           
+            
+            
+                  <div id="advert7"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="300" height="250" src="./WAECDIRECT ONLINE - RESULT CHECKER_files/adservice.html"></iframe></div>           
+			
+			
+                   
+              
+              
+              
+              </td>
+           
+           </tr> 
+            
+             
+
+
+              
+         
+            
+            <tr>
+            
+            
+            
+             <td class="purple" style="background-color:#8B7ED6" width="300" height="250">
+              
+            
+                       
+		<div id="advert2"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="300" height="250" src="./WAECDIRECT ONLINE - RESULT CHECKER_files/adservice.html"></iframe></div> 
+                          
+        
+        		
+                    </td>
+          <td class="purple" style="background-color:#8B7ED6" width="300" height="250">
+              
+              
+                       
+		<div id="advert3"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="300" height="250" src="./WAECDIRECT ONLINE - RESULT CHECKER_files/adservice.html"></iframe></div> 
+                           		
+                </td>
+				 <td class="purple" style="background-color:#8B7ED6" width="300" height="250">
+              
+              
+                       
+		<div id="advert5"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="300" height="250" src="./WAECDIRECT ONLINE - RESULT CHECKER_files/adservice.html"></iframe></div>  
+                          		
+                </td>
+            </tr>
+            
+            <tr>
+              <td class="title" height="10"> Frequently Asked Questions (FAQ)</td>
+              <td class="title" height="10">New Improved SMS Usage!</td>
+                <td class="title" height="10"></td>
+            </tr>
+            <tr>
+              <td height="179" class="purple" style="padding-top: 20px;"><ul>
+                  <li><a href="http://www.waecdirect.org/faq.htm#1" class="faq">What is a PIN?</a> </li>
+                <li><a href="http://www.waecdirect.org/faq.htm#2" class="faq">What is a Scratch card?</a> </li>
+                <li><a href="http://www.waecdirect.org/faq.htm#3" class="faq">Where can I buy a Scratch card?</a> </li>
+                <li><a href="http://www.waecdirect.org/faq.htm#4" class="faq">How many times can I check my results?</a> </li>
+                <li><a href="http://www.waecdirect.org/faq.htm#5" class="faq">Can I use one Scratch card to check more than one
+                  result?</a> 
+                                                                    <!--<li> What information is available on this service? ...more  -->
+                  </li>
+<li><a href="http://www.waecdirect.org/faq.htm#6" class="faq">I have a problem in checking my WAEC result Please help?</a></li>
+<li><a href="http://www.waecdirect.org/faq.htm#7" class="faq">I have being trying to check my result but the WAEC page is not loading</a></li>
+<li><a href="http://www.waecdirect.org/faq.htm#8" class="faq">I went to the WAEC portal and filled in the required details only to see a page telling me there is no result for the candidate in the specified year. Please what do I do?</a></li>
+<br><a href="http://www.waecdirect.org/faq.htm" class="faq">...more</a>
+              </ul></td>
+              <td height="179" class="purple" style="padding-top: 20px;"><ul>
+                  <li>Send SMS in the format below:<br>
+                      <span class="style5">WAEC*ExamNo*PIN*ExamYear</span><br>
+                    To short-code <span class="style6">32327</span> (MTN, Celtel &amp; Glo subscribers) 
+                  </li>
+                  <li>For example -: <br>
+                    <span class="style6">WAEC*4250101001*123456789012*2007</span> <br>
+                    <span class="style9">Note: </span><span class="style8"> <br>
+                      Ensure you adhere strictly to the format above. There should be no space in the
+                      message.</span> 
+                  </li>
+                  <li>Wait for your result to be delivered to your phone via SMS. <span class="style3"> (SMS Cost N30 Only)</span> <br>
+                  </li>
+                </ul>
+                
+                </td>
+             <td height="179" class="purple" style="padding-top: 20px;"></td>
+            </tr>
+            
+            
+            
+           
+        </tbody></table></td>
+      </tr>
+    </tbody></table></td>
+  </tr>
+  <tr>
+    <td width="86%" align="right" valign="middle" bgcolor="#FFFFFF"><span class="style16">Powered by</span>:</td>
+    <td width="14%" align="center" valign="middle"><a href="http://www.fleettechltd.com/"><img src="./WAECDIRECT ONLINE - RESULT CHECKER_files/fleet.jpg" width="144" height="30" border="0"></a></td>
+  </tr>
+</tbody></table>
+
+
+
+
+
+</body></html>
